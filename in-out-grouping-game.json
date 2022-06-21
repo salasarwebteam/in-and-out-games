@@ -1,0 +1,934 @@
+{
+    "title": "In/Out Grouping Game",
+    "anchorID": "in_out_app",
+    "points": 250,
+    "questions": [
+        {
+            "id": 1,
+            "title": "Question 1",
+            "instructions": "Four students—Adam, Bob, Charlie, and Diana—are trying to form a group of at least two people in class. However, their teacher gives them rules that they must obey when forming the group. The first rule is:",
+            "subInstructions": "\n Please select the proper diagram and fill out its slots with the correct symbols for Adam (A) and Charlie (C) in order to properly represent Rule #1. For the incorrect diagram, leave it blank.",
+            "rules": [
+                "Rule #1: If Adam is in the group then Charlie is out of the group."
+            ],
+            "explanation": "When diagramming a conditional relationship for In/Out Grouping games, you always want to use an arrow to show that IF one variable is selected, THEN it has an effect on another variable.",
+            "time": 0,
+            "lives": 3,
+            "manipulatives": [
+                {
+                    "text": "A",
+                    "x": 235.3,
+                    "y": 280
+                },
+                {
+                    "text": "C",
+                    "x": 464.6,
+                    "y": 280
+                }
+            ],
+            "dropZones": [
+                {
+                    "text": "A",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "If this is the correct diagram, please drag and drop the correct name into this spot.",
+                    "hint": "Diagram the Rule from left to right! Whoever is mentioned first should go on the left side.",
+                    "explanation": "Correct! Since Rule #1 says that IF Adam is IN the group THEN Charlie is OUT of the group, Adam goes on the left side.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 95,
+                    "y": 512
+                },
+                {
+                    "text": "C",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "If this is the correct diagram, please drag and drop the correct name into this spot.",
+                    "hint": "Diagram the Rule from left to right! If a certain student is designated to be OUT of a group, use the strikethrough.",
+                    "explanation": "Correct! Since Rue #1 says that IF Adam is IN the group THEN Charlie is OUT of the group, Charlies goes on the right side.",
+                    "strikethrough": true,
+                    "prefilled": false,
+                    "x": 605,
+                    "y": 512
+                },
+                {
+                    "text": "",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "If this is the correct diagram, please drag and drop the correct name into this spot.",
+                    "hint": "",
+                    "explanation": "This slot should be left blank. Boxed diagrams are only used in ordering/sequencing games.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 235.3,
+                    "y": 895
+                },
+                {
+                    "text": "",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "If this is the correct diagram, please drag and drop the correct name into this spot.",
+                    "hint": "",
+                    "explanation": "This slot should be left blank. Boxed diagrams are only used in ordering/sequencing games.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 464.6,
+                    "y": 895
+                }
+            ],
+            "diagrams": [
+                {
+                    "id": "InOutDiagram1",
+                    "x": 95,
+                    "y": 545
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Question 2",
+            "instructions": "Four students—Adam, Bob, Charlie, and Diana—are trying to form a group of at least two people in class. However, their teacher gives them rules that they must obey when forming the group. The first rule is:",
+            "subInstructions": "<br>Please fill out the Game Board in accordance with this rule. Include as many students as possible “IN” the group. Some letters may be used more than once.",
+            "rules": [
+                "Rule #1: If Adam is in the group then Charlie is out of the group."
+            ],
+            "explanation": "When diagramming In/Out Grouping Games, you will always want to set up your Game Board in a similar fashion. This helps you keep track of all the variables you are given.",
+            "time": 90,
+            "lives": 3,
+            "manipulatives": [
+                {
+                    "text": "B",
+                    "x": 80,
+                    "y": 270
+                },
+                {
+                    "text": "B",
+                    "x": 80,
+                    "y": 270
+                },
+                {
+                    "text": "C",
+                    "x": 350,
+                    "y": 270
+                },
+                {
+                    "text": "D",
+                    "x": 620,
+                    "y": 270
+                },
+                {
+                    "text": "D",
+                    "x": 620,
+                    "y": 270
+                }
+            ],
+            "dropZones": [
+                {
+                    "text": "A",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "",
+                    "hint": "",
+                    "explanation": "",
+                    "strikethrough": false,
+                    "prefilled": true,
+                    "x": 121,
+                    "y": 560
+                },
+                {
+                    "text": null,
+                    "texts": [
+                        "B",
+                        "D"
+                    ],
+                    "subtext": null,
+                    "description": "Drag and Drop a student that can be in the group while still adhering to Rule #1.",
+                    "hint": "Notice that Adam is already in the group, which other students are NOT excluded from the group according to Rule #1?",
+                    "explanation": "Correct! Either Bob or Diana can go in this spot. Rule #1 says that only Charlie cannot be in the group if Adam is in the group.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 121,
+                    "y": 705
+                },
+                {
+                    "text": null,
+                    "texts": [
+                        "D",
+                        "B"
+                    ],
+                    "subtext": null,
+                    "description": "Drag and Drop a student that will be out of the group according to Rule #1.",
+                    "hint": "Notice that Adam is already in the group, which other students are NOT excluded from the group according to Rule #1?",
+                    "explanation": "Correct! Either Bob or Diana can go in this spot. Rule #1 says that only Charlie cannot be in the group if Adam is in the group.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 121,
+                    "y": 850
+                },
+                {
+                    "text": "C",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "Drag and Drop a student that will be out of the group according to Rule #1.",
+                    "hint": "Which student cannot be in the group if Adam is in?",
+                    "explanation": "Correct! Charlie cannot be in the group if Adam is in the group due to Rule #1.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 579,
+                    "y": 560
+                }
+            ],
+            "diagrams": [
+                {
+                    "id": "InOutDiagram2",
+                    "x": 20,
+                    "y": 430
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Question 3",
+            "instructions": "Four students—Adam, Bob, Charlie, and Diana—are trying to form a group of at least two people in class. However, their teacher gives them rules that they must obey when forming the group:",
+            "subInstructions": "<br>Please select the proper diagram and fill out its slots with the correct symbols so that you can represent Rule #2. For the incorrect diagram, leave it blank.",
+            "rules": [
+                "Rule #1: If Adam is in the group then Charlie is out of the group.",
+                "Rule #2: If Charlie is in the group then Bob or Diana, but not both, are also in."
+            ],
+            "explanation": "When you are diagramming a conditional relationship where one variable affects two or more variables, you want to group the together into diagram if possible, such as what we did with this exercise.",
+            "time": 90,
+            "lives": 3,
+            "manipulatives": [
+                {
+                    "text": "A",
+                    "x": 6,
+                    "y": 320
+                },
+                {
+                    "text": "B",
+                    "x": 235.3,
+                    "y": 320
+                },
+                {
+                    "text": "C",
+                    "x": 464.6,
+                    "y": 320
+                },
+                {
+                    "text": "D",
+                    "x": 694,
+                    "y": 320
+                }
+            ],
+            "dropZones": [
+                {
+                    "text": "C",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "If this is the correct diagram, please drag and drop the correct name into this spot.",
+                    "hint": "The student associated with the IF portion of the conditional relationship should be listed first.",
+                    "explanation": "Correct! Charlie should be placed in this position. In a conditional relationship you want to place the IF variable on the left side of the arrow.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 6,
+                    "y": 537
+                },
+                {
+                    "text": null,
+                    "texts": [
+                        "B",
+                        "D"
+                    ],
+                    "subtext": null,
+                    "description": "If this is the correct diagram, please drag and drop the correct name into this spot.",
+                    "hint": "Which two students follow the THEN portion of the conditional relationship of Rule #2?",
+                    "explanation": "Correct! Either Bob or Diana can go in this spot!",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 437,
+                    "y": 537
+                },
+                {
+                    "text": null,
+                    "texts": [
+                        "D",
+                        "B"
+                    ],
+                    "subtext": null,
+                    "description": "If this is the correct diagram, please drag and drop the correct name into this spot.",
+                    "hint": "Which two students follow the THEN portion of the conditional relationship of Rule #2?",
+                    "explanation": "Correct! Either Bob or Diana can go in this spot!",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 694,
+                    "y": 537
+                },
+                {
+                    "text": "",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "If this is the correct diagram, please drag and drop the correct name into this spot.",
+                    "hint": "",
+                    "explanation": "While this diagram does indicate a conditional relationship, the bracketed box is incorrect. As such, this diagram should remain blank.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 6,
+                    "y": 920
+                },
+                {
+                    "text": "",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "If this is the correct diagram, please drag and drop the correct name into this spot.",
+                    "hint": "",
+                    "explanation": "While this diagram does indicate a conditional relationship, the bracketed box is incorrect. As such, this diagram should remain blank.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 461.5,
+                    "y": 920
+                },
+                {
+                    "text": "",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "If this is the correct diagram, please drag and drop the correct name into this spot.",
+                    "hint": "",
+                    "explanation": "While this diagram does indicate a conditional relationship, the bracketed box is incorrect. As such, this diagram should remain blank.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 681.5,
+                    "y": 920
+                }
+            ],
+            "diagrams": [
+                {
+                    "id": "InOutDiagram3",
+                    "x": 6,
+                    "y": 570
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Question 4",
+            "instructions": "Four students—Adam, Bob, Charlie, and Diana—are trying to form a group of at least two people in class. However, their teacher gives them rules that they must obey when forming the group:",
+            "subInstructions": "<br>Please fill out the Game Board below in accordance with both rules given that Charlie is IN the group. Letters may only be used once.",
+            "rules": [
+                "Rule #1: If Adam is in the group then Charlie is out of the group.",
+                "Rule #2: If Charlie is in the group then Bob or Diana, but not both, are also in."
+            ],
+            "explanation": "Make sure to always keep track of when one variable is in and another variable is out. Slashes in item slots help you differentiate between when a spot can only have one item, versus when a spot can have multiple items.",
+            "time": 90,
+            "lives": 3,
+            "manipulatives": [
+                {
+                    "text": "A",
+                    "x": 80,
+                    "y": 300
+                },
+                {
+                    "text": "B",
+                    "x": 350,
+                    "y": 300
+                },
+                {
+                    "text": "D",
+                    "x": 620,
+                    "y": 300
+                }
+            ],
+            "dropZones": [
+                {
+                    "text": "C",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "",
+                    "hint": "",
+                    "explanation": "",
+                    "strikethrough": false,
+                    "prefilled": true,
+                    "x": 121,
+                    "y": 580
+                },
+                {
+                    "text": null,
+                    "texts": [
+                        "B",
+                        "D"
+                    ],
+                    "subtext": null,
+                    "description": "Drag and Drop a student that can be in the group while still adhering to Rule #1 and Rule #2.",
+                    "hint": "Which two students can be in the group if Charlie is in? Choose one.",
+                    "explanation": "Correct! Either Bob or Diana, but not both, must go in the group if Charlie is in the group according to Rule #2.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 121,
+                    "y": 740
+                },
+                {
+                    "text": null,
+                    "texts": [
+                        "B",
+                        "D",
+                        "A"
+                    ],
+                    "subtext": null,
+                    "description": "Drag and Drop a student that can be in the group while still adhering to Rule #1 and Rule #2.",
+                    "hint": "Look at Rule #1, what is the contrapositive of that rule? Since Charlie is in, one student MUST be out.",
+                    "explanation": "Correct! According to the contrapositive of Rule #1, Adam must be out of the group if Charlie is in. Either Bob or Diana are also out of the group depending on which is in the group.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 581,
+                    "y": 580
+                },
+                {
+                    "text": null,
+                    "texts": [
+                        "B",
+                        "D",
+                        "A"
+                    ],
+                    "subtext": null,
+                    "description": "Drag and Drop a student that will be out the group according to Rule #1 and Rule #2.",
+                    "hint": "If one of the students from Rule #2 is in, then the other must be out.",
+                    "explanation": "Correct! Either Bob or Diana must be out of the group depending on which one you placed in the group. According to the contrapositive of Rule #1, Adam must also be out of the group.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 581,
+                    "y": 740
+                }
+            ],
+            "diagrams": [
+                {
+                    "id": "InOutDiagram4",
+                    "x": 10,
+                    "y": 450
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Question 5",
+            "instructions": "Four students—Adam, Bob, Charlie, and Diana—are trying to form a group of at least two people in class. However, their teacher gives them rules that they must obey when forming the group:",
+            "subInstructions": "<br>Please select the proper diagram and fill out its slots with the correct symbols so that you can represent Rule #3. For the incorrect diagram, leave it blank.",
+            "rules": [
+                "Rule #1: If Adam is in the group then Charlie is out of the group.",
+                "Rule #2: If Charlie is in the group then Bob or Diana, but not both, are also in.",
+                "Rule #3: If Bob is out of the group then Adam is in the group."
+            ],
+            "explanation": "",
+            "time": 90,
+            "lives": 3,
+            "manipulatives": [
+                {
+                    "text": "A",
+                    "x": 6,
+                    "y": 350
+                },
+                {
+                    "text": "B",
+                    "x": 235.3,
+                    "y": 350
+                },
+                {
+                    "text": "C",
+                    "x": 464.6,
+                    "y": 350
+                },
+                {
+                    "text": "D",
+                    "x": 694,
+                    "y": 350
+                }
+            ],
+            "dropZones": [
+                {
+                    "text": "B",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "If this is the correct diagram, please drag and drop the correct name into this spot.",
+                    "hint": "Diagram the Rule from left to right! If a certain student is designated to be OUT of a group, use the strikethrough",
+                    "explanation": "Correct! Bob should go in this spot!",
+                    "strikethrough": true,
+                    "prefilled": false,
+                    "x": 95,
+                    "y": 601
+                },
+                {
+                    "text": "A",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "If this is the correct diagram, please drag and drop the correct name into this spot.",
+                    "hint": "Diagram the Rule from left to right! If a certain student is designated to be OUT of a group, use the strikethrough.",
+                    "explanation": "Correct! Adam should go in this spot.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 605,
+                    "y": 601
+                },
+                {
+                    "divider": "//////////////////////////////////////////////////////////",
+                    "text": "",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "If this is the correct diagram, please drag and drop the correct name into this spot.",
+                    "hint": "",
+                    "explanation": "This diagram is incorrect so it should be left blank. Lines connecting two variables are only used for ordering games when you are creating chain diagrams.",
+                    "strikethrough": true,
+                    "prefilled": false,
+                    "x": 95,
+                    "y": 927
+                },
+                {
+                    "text": "",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "If this is the correct diagram, please drag and drop the correct name into this spot.",
+                    "hint": "",
+                    "explanation": "This diagram is incorrect so it should be left blank. Lines connecting two variables are only used for ordering games when you are creating chain diagrams.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 605,
+                    "y": 927
+                }
+            ],
+            "diagrams": [
+                {
+                    "id": "InOutDiagram5",
+                    "x": 95,
+                    "y": 628
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Question 6",
+            "instructions": "Four students—Adam, Bob, Charlie, and Diana—are trying to form a group of at least two people in class. However, their teacher gives them rules that they must obey when forming the group:",
+            "subInstructions": "<br>Please fill out the Game Board below for all students who can be in the group in accordance with all three rules given that Bob is OUT of the group. Each letter may only be used once.",
+            "rules": [
+                "Rule #1: If Adam is in the group then Charlie is out of the group.",
+                "Rule #2: If Charlie is in the group then Bob or Diana, but not both, are also in.",
+                "Rule #3: If Bob is out of the group then Adam is in the group."
+            ],
+            "explanation": "As you can see with this exercise, often times a single item’s placement causes a chain reaction that locks in other items into certain slots.",
+            "time": 90,
+            "lives": 3,
+            "manipulatives": [
+                {
+                    "text": "A",
+                    "x": 6,
+                    "y": 350
+                },
+                {
+                    "text": "B",
+                    "x": 235.3,
+                    "y": 350
+                },
+                {
+                    "text": "C",
+                    "x": 464.6,
+                    "y": 350
+                },
+                {
+                    "text": "D",
+                    "x": 694,
+                    "y": 350
+                }
+            ],
+            "dropZones": [
+                {
+                    "text": null,
+                    "texts": [
+                        "A",
+                        "D"
+                    ],
+                    "subtext": null,
+                    "description": "Drag and Drop a student that can be in the group while still adhering to all three rules.",
+                    "hint": "Who is in if Bob is out?",
+                    "explanation": "Correct! According to Rule #3, since Bob is out of the group that means that Adam is in the group.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 121,
+                    "y": 630
+                },
+                {
+                    "text": null,
+                    "texts": [
+                        "A",
+                        "D"
+                    ],
+                    "subtext": null,
+                    "description": "Drag and Drop a student that can be in the group while still adhering to all three rules.",
+                    "hint": "Rule #1 and Rule #3 ensure that only two students can be the group at most, which student is not mentioned in either rule and thus can be in?",
+                    "explanation": "Correct! Diana is the only other student besides Adam that can be in the group!",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 121,
+                    "y": 790
+                },
+                {
+                    "text": "B",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "",
+                    "hint": "",
+                    "explanation": "",
+                    "strikethrough": false,
+                    "prefilled": true,
+                    "x": 579,
+                    "y": 630
+                },
+                {
+                    "text": "C",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "Drag and Drop a student that will be out the group according to all three rules.",
+                    "hint": "Bob being in the group causes a chain reaction of one student definitely being in and another student definitely being out.",
+                    "explanation": "Correct! Charlie is also forced to be out of the group.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 579,
+                    "y": 790
+                }
+            ],
+            "diagrams": [
+                {
+                    "id": "InOutDiagram6",
+                    "x": 10,
+                    "y": 500
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Question 7",
+            "instructions": "A fifth student joins the other four students in forming a group of at least two people in class. The list of available students is now: Adam, Bob, Charlie, Diana and Ethan. Their teacher continues to give them rules for how to form the group:",
+            "subInstructions": "<br>Please select the proper diagram and fill out its slots so that you can represent Rule #4. For the incorrect diagram, leave it blank.",
+            "rules": [
+                "Rule #1: If Adam is in the group then Charlie is out of the group.",
+                "Rule #2: If Charlie is in the group then Bob or Diana, but not both, are also in.",
+                "Rule #3: If Bob is out of the group then Adam is in the group.",
+                "Rule #4: If Ethan is in the group then both Adam and Diana are in the group."
+            ],
+            "explanation": "If two items associated with the THEN portion of a conditional relationship are connected by an “and” then their order in your diagram does not matter since this is a grouping game, not an ordering game.",
+            "time": 90,
+            "lives": 3,
+            "manipulatives": [
+                {
+                    "text": "A",
+                    "x": 0,
+                    "y": 420
+                },
+                {
+                    "text": "B",
+                    "x": 175,
+                    "y": 420
+                },
+                {
+                    "text": "C",
+                    "x": 350,
+                    "y": 420
+                },
+                {
+                    "text": "D",
+                    "x": 525,
+                    "y": 420
+                },
+                {
+                    "text": "E",
+                    "x": 700,
+                    "y": 420
+                }
+            ],
+            "dropZones": [
+                {
+                    "text": "",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "If this is the correct diagram, please drag and drop the correct name into this spot.",
+                    "hint": "",
+                    "explanation": "This is the incorrect diagram so all slots should be left blank! Brackets and boxes like that are not used for In/Out grouping games.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 6,
+                    "y": 622
+                },
+                {
+                    "text": "",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "If this is the correct diagram, please drag and drop the correct name into this spot.",
+                    "hint": "",
+                    "explanation": "This is the incorrect diagram so all slots should be left blank! Brackets and boxes like that are not used for In/Out grouping games.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 461.5,
+                    "y": 622
+                },
+                {
+                    "text": "",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "If this is the correct diagram, please drag and drop the correct name into this spot.",
+                    "hint": "",
+                    "explanation": "This is the incorrect diagram so all slots should be left blank! Brackets and boxes like that are not used for In/Out grouping games.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 681.5,
+                    "y": 622
+                },
+                {
+                    "divider": "//////////////////////////////////////////////////////////",
+                    "text": "E",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "If this is the correct diagram, please drag and drop the correct name into this spot.",
+                    "hint": "Which student is associated with the IF portion of the conditional statement in Rule #4?",
+                    "explanation": "Correct! Ethan belongs in this spot since he is associated with the IF portion of the conditional statement in Rule #4.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 6,
+                    "y": 926
+                },
+                {
+                    "text": null,
+                    "texts": [
+                        "A",
+                        "D"
+                    ],
+                    "subtext": null,
+                    "description": "If this is the correct diagram, please drag and drop the correct name into this spot.",
+                    "hint": "Which two students are associated with the THEN portion of the conditional statement in Rule #4?",
+                    "explanation": "Correct! Either Adam or Diana can go in this spot! Both students must be in the group if Ethan is in the group.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 437,
+                    "y": 926
+                },
+                {
+                    "text": null,
+                    "texts": [
+                        "D",
+                        "A"
+                    ],
+                    "subtext": null,
+                    "description": "If this is the correct diagram, please drag and drop the correct name into this spot.",
+                    "hint": "Which two students are associated with the THEN portion of the conditional statement in Rule #4?",
+                    "explanation": "Correct! Either Adam or Diana can go in this spot! Both students must be in the group if Ethan is in the group.",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 694,
+                    "y": 926
+                }
+            ],
+            "diagrams": [
+                {
+                    "id": "InOutDiagram7",
+                    "x": 6,
+                    "y": 576
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Question 8",
+            "instructions": "A fifth student joins the other four students in forming a group of at least two people in class. The list of available students is now: Adam, Bob, Charlie, Diana and Ethan. Their teacher continues to give them rules for how to form the group:",
+            "subInstructions": "<br>Please fill out the Game Board below for all students who can be in the group in accordance with all four rules given that Ethan is IN the group. Each letter may only be used once.",
+            "rules": [
+                "Rule #1: If Adam is in the group then Charlie is out of the group.",
+                "Rule #2: If Charlie is in the group then Bob or Diana, but not both, are also in.",
+                "Rule #3: If Bob is out of the group then Adam is in the group.",
+                "Rule #4: If Ethan is in the group then both Adam and Diana are in the group."
+            ],
+            "explanation": "Make sure to properly read each rule and figure out each inference. Rule #3 is tricky but ultimately both Adam and Bob can be in the group together. All Rule #3 states is that when Bob is out, Adam must be in; they are not excluded from being in at the same time.",
+            "time": 120,
+            "lives": 5,
+            "manipulatives": [
+                {
+                    "text": "A",
+                    "x": 0,
+                    "y": 430
+                },
+                {
+                    "text": "B",
+                    "x": 175,
+                    "y": 430
+                },
+                {
+                    "text": "C",
+                    "x": 350,
+                    "y": 430
+                },
+                {
+                    "text": "D",
+                    "x": 525,
+                    "y": 430
+                },
+                {
+                    "text": "E",
+                    "x": 700,
+                    "y": 430
+                }
+            ],
+            "dropZones": [
+                {
+                    "text": "E",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "",
+                    "hint": "",
+                    "explanation": "",
+                    "strikethrough": false,
+                    "prefilled": true,
+                    "x": 121,
+                    "y": 635
+                },
+                {
+                    "text": null,
+                    "texts": [
+                        "A",
+                        "D",
+                        "B"
+                    ],
+                    "subtext": null,
+                    "description": "Drag and Drop a student who can go in this position. Remember, you may want to leave some spaces blank.",
+                    "hint": "What is the maximum number of students allowed to be in the group? How many students must be out of the group if Ethan is in?",
+                    "explanation": null,
+                    "explanations": [
+                        {
+                            "text": "A",
+                            "explanation": "Correct! Adam can be in this position. Since Ethan is in the group, according to Rule #4 Adam must be in as well."
+                        },
+                        {
+                            "text": "D",
+                            "explanation": "Correct! Diana can be in this position. Since Ethan is in the group, according to Rule #4 Diana must be in as well."
+                        },
+                        {
+                            "text": "B",
+                            "explanation": "Correct! Bob can also be in the group! While Rule #3 says that if Bob it out then Adam is in, that rule does not prevent them both from being in at the same time."
+                        }
+                    ],
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 121,
+                    "y": 737
+                },
+                {
+                    "text": null,
+                    "texts": [
+                        "D",
+                        "A",
+                        "B"
+                    ],
+                    "subtext": null,
+                    "description": "Drag and Drop a student who can go in this position. Remember, you may want to leave some spaces blank.",
+                    "hint": "What is the maximum number of students allowed to be in the group? How many students must be out of the group if Ethan is in?",
+                    "explanation": null,
+                    "explanations": [
+                        {
+                            "text": "A",
+                            "explanation": "Correct! Adam can be in this position. Since Ethan is in the group, according to Rule #4 Adam must be in as well."
+                        },
+                        {
+                            "text": "D",
+                            "explanation": "Correct! Diana can be in this position. Since Ethan is in the group, according to Rule #4 Diana must be in as well."
+                        },
+                        {
+                            "text": "B",
+                            "explanation": "Correct! Bob can also be in the group! While Rule #3 says that if Bob it out then Adam is in, that rule does not prevent them both from being in at the same time."
+                        }
+                    ],
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 121,
+                    "y": 839
+                },
+                {
+                    "text": null,
+                    "texts": [
+                        "B",
+                        "A",
+                        "D"
+                    ],
+                    "subtext": null,
+                    "description": "Drag and Drop a student who can go in this position. Remember, you may want to leave some spaces blank.",
+                    "hint": "What is the maximum number of students allowed to be in the group? How many students must be out of the group if Ethan is in?",
+                    "explanations": [
+                        {
+                            "text": "A",
+                            "explanation": "Correct! Adam can be in this position. Since Ethan is in the group, according to Rule #4 Adam must be in as well."
+                        },
+                        {
+                            "text": "D",
+                            "explanation": "Correct! Diana can be in this position. Since Ethan is in the group, according to Rule #4 Diana must be in as well."
+                        },
+                        {
+                            "text": "B",
+                            "explanation": "Correct! Bob can also be in the group! While Rule #3 says that if Bob it out then Adam is in, that rule does not prevent them both from being in at the same time."
+                        }
+                    ],
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 121,
+                    "y": 941
+                },
+                {
+                    "divider": "//////////////////////////////////////////////////////////",
+                    "text": "C",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "Drag and Drop a student who can go in this position. Remember, you may want to leave some spaces blank.",
+                    "hint": "Do any of the students who are in the group as a result of Ethan being in, cause another student to be out? Look carefully at your rules.",
+                    "explanation": "Correct! Charlie is the only student that cannot be in the group!",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 579,
+                    "y": 635
+                },
+                {
+                    "text": "C",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "Drag and Drop a student who can go in this position. Remember, you may want to leave some spaces blank.",
+                    "hint": "Do any of the students who are in the group as a result of Ethan being in, cause another student to be out? Look carefully at your rules.",
+                    "explanation": "Correct! Charlie is the only student that cannot be in the group!",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 579,
+                    "y": 737
+                },
+                {
+                    "text": "C",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "Drag and Drop a student who can go in this position. Remember, you may want to leave some spaces blank.",
+                    "hint": "Do any of the students who are in the group as a result of Ethan being in, cause another student to be out? Look carefully at your rules.",
+                    "explanation": "Correct! Charlie is the only student that cannot be in the group!",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 579,
+                    "y": 839
+                },
+                {
+                    "text": "C",
+                    "texts": null,
+                    "subtext": null,
+                    "description": "Drag and Drop a student who can go in this position. Remember, you may want to leave some spaces blank.",
+                    "hint": "Do any of the students who are in the group as a result of Ethan being in, cause another student to be out? Look carefully at your rules.",
+                    "explanation": "Correct! Charlie is the only student that cannot be in the group!",
+                    "strikethrough": false,
+                    "prefilled": false,
+                    "x": 579,
+                    "y": 941
+                }
+            ],
+            "diagrams": [
+                {
+                    "id": "InOutDiagram8",
+                    "x": 10,
+                    "y": 545
+                }
+            ]
+        }
+    ]
+}
